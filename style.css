@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1600px;
+    padding: 0px 20px;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-logo{
+    color: orange;
+    margin-left: 0px;
+}
+
+button {
+    padding: 30px 30px;
+    height: 150px;
+    width: 150px;
+    background: none;
+    border-color: white;
+    color: white;
+    font-size: 40px;
+}
+
+.game-container {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.section1 {
+    border-top: none;
+    border-left: none;
+}
+
+.section2 {
+    border-top: none;
+}
+
+.section3 {
+    border-top: none;
+    border-right: none;
+}
+
+.section4 {
+    border-left: none;
+}
+
+.section6 {
+    border-right: none;
+}
+
+.section7 {
+    border-left: none;
+    border-bottom: none;
+}
+
+.section8 {
+    border-bottom: none;
+}
+
+.section9 {
+    border-right: none;
+    border-bottom: none;
+}
+
+.main-panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside{
+    background-color: white;
+    width: 350px;
+    height: 600px;
+}
+
+.img-ads{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px !important;
+}
+
+.social-media{
+    display: flex;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+
+
+
